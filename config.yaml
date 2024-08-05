@@ -1,0 +1,7 @@
+routes:
+  - from: "/v1/app-healthy"
+    to: "http://localhost:5005"
+  - from: "/v1/app-healthy-mock"
+    to: "http://localhost:5006"
+  - from: "/v1/app-healthy-1"
+    to: "http://localhost:5007"
